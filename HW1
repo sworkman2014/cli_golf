@@ -1,0 +1,1259 @@
+Last login: Mon Nov 14 12:11:31 on ttys000
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.10.2
+Homebrew 1.1.0 Homebrew/homebrew-core (git revision 1d0a; last commit 2016-11-14)
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin16]
+node v7.1.0
+psql (PostgreSQL) 9.5.5
+------------------------------------------
+type unwelcome to remove this message
+stephanie ~
+$ cd
+stephanie ~
+$ ls
+2	       Documents/  Library/  Pictures/	fundamentals/
+Applications/  Downloads/  Movies/   Public/	funny_things/
+Desktop/       Dropbox/    Music/    code/
+stephanie ~
+$ pwd
+/Users/Stephanie
+stephanie ~
+$ cd /
+stephanie /
+$ ls
+Applications/  Users/	 dev/			    net/      tmp@
+Library/       Volumes/  etc@			    opt/      usr/
+Network/       bin/	 home/			    private/  var@
+System/        cores/	 installer.failurerequests  sbin/
+stephanie /
+$ cd Users/
+stephanie /Users
+$ ls
+'Deleted Users'/  Guest/  Shared/  Stephanie/
+stephanie /Users
+$ stephanie/
+-bash: stephanie/: is a directory
+stephanie /Users
+$ cd stephanie/
+stephanie /Users/stephanie
+$ cd /
+stephanie /
+$ cd applications
+stephanie /applications
+$ cd../Users/
+-bash: cd../Users/: No such file or directory
+stephanie /applications
+$ pwd
+/applications
+stephanie /applications
+$ ls
+Adobe/				Notes.app/
+'Adobe Bridge CS6'/		Numbers.app/
+'Adobe Extension Manager CS6'/	Pages.app/
+'Adobe Illustrator CS6'/	'Photo Booth.app'/
+'Adobe InDesign CS6'/		Photos.app/
+'Adobe Media Encoder CS6'/	Preview.app/
+'Adobe Photoshop CS6'/		'QuickTime Player.app'/
+'App Store.app'/		Reminders.app/
+Automator.app/			Safari.app/
+Calculator.app/			Shoebox.app/
+Calendar.app/			Siri.app/
+Chess.app/			Slack.app/
+Contacts.app/			Spectacle.app/
+'DVD Player.app'/		Spotify.app/
+Dashboard.app/			Stickies.app/
+Dictionary.app/			'Sublime Text.app'/
+Dropbox.app/			'System Preferences.app'/
+FaceTime.app/			TextEdit.app/
+'Font Book.app'/		'The Sims 2.app'/
+GarageBand.app/			'Time Machine.app'/
+'Google Chrome.app'/		Utilities/
+'Image Capture.app'/		VLC.app/
+Keynote.app/			WhatsApp.app/
+Launchpad.app/			Xcode.app/
+Mail.app/			iBooks.app/
+Maps.app/			iMovie.app/
+Messages.app/			iTunes.app/
+'Microsoft Excel.app'/		mac2imgur.app/
+'Microsoft Word.app'/		uTorrent.app/
+'Mission Control.app'/
+stephanie /applications
+$ cd ../Users/
+stephanie /Users
+$ ls
+'Deleted Users'/  Guest/  Shared/  Stephanie/
+stephanie /Users
+$ pwd
+/Users
+stephanie /Users
+$ cd stephanie
+stephanie /Users/stephanie
+$ ../../applications
+-bash: ../../applications: is a directory
+stephanie /Users/stephanie
+$ pwd
+/Users/stephanie
+stephanie /Users/stephanie
+$ cd ../../applications
+stephanie /applications
+$ pwd
+/applications
+stephanie /applications
+$ cd ../../applications/
+stephanie /applications
+$ pwd
+/applications
+stephanie /applications
+$ cd
+stephanie ~
+$ pwd
+/Users/Stephanie
+stephanie ~
+$ ../Users;
+-bash: ../Users: No such file or directory
+stephanie ~
+$ cd ../Users/
+-bash: cd: ../Users/: No such file or directory
+stephanie ~
+$ pwd
+/Users/Stephanie
+stephanie ~
+$ cd /Users/stephanie/
+stephanie /Users/stephanie
+$ pwd
+/Users/stephanie
+stephanie /Users/stephanie
+$ ´Ωcd Documents/
+-bash: ´Ωcd: command not found
+stephanie /Users/stephanie
+$ /Users/Stephanie/Documents 
+-bash: /Users/Stephanie/Documents: is a directory
+stephanie /Users/stephanie
+$ pwd
+/Users/stephanie
+stephanie /Users/stephanie
+$ /Users/Stephanie/Documents
+-bash: /Users/Stephanie/Documents: is a directory
+stephanie /Users/stephanie
+$ /Users/Stephanie/Documents 
+-bash: /Users/Stephanie/Documents: is a directory
+stephanie /Users/stephanie
+$ pwd
+/Users/stephanie
+stephanie /Users/stephanie
+$ /Users/Stephanie/Documents/Old 
+-bash: /Users/Stephanie/Documents/Old: is a directory
+stephanie /Users/stephanie
+$ cd ~/Desktop/
+stephanie ~/Desktop
+$ pwd
+/Users/Stephanie/Desktop
+stephanie ~/Desktop
+$ ls
+Boudreaux/
+CHLOERESUME.indd
+CHLOERESUME2.indd
+CHLOERESUME3.indd
+CW.png
+CW2.png
+ChloeHeader.pdf
+ChloeLogo1.ai
+ChloeLogo1.pdf
+ChloeLogo2.ai
+ChloeLogo2.pdf
+ChloeLogo3.ai
+ChloeLogo3.pdf
+ChloeReferences.indd
+ChloeReferences.pdf
+ChloeResume.pdf
+ChloeResume1.pdf
+ChloeResume2-web-resources/
+ChloeResume2.html
+ChloeResume2.pdf
+ChloeResume3.pdf
+ChloeResumeNo2.pdf
+ChloeResumeRev1.indd
+ChloeResumeRev1.pdf
+ChloeResumeRev2.indd
+ChloeResumeRev2.pdf
+ChloeResumeRev3.indd
+ChloeResumeRev3.pdf
+GraphicLead1.idml
+GraphicLead1.indd
+'Infographic sidebar.indd'
+PLF-04-16-stephenissoooocoolomgomgomg.idml
+'Screen Shot 2015-11-23 at 2.30.55 PM.png'
+'Screen Shot 2015-11-23 at 2.31.39 PM.png'
+'Screen Shot 2015-11-24 at 4.54.35 PM.png'
+'Screen Shot 2015-12-04 at 4.45.22 PM.png'
+'Screen Shot 2015-12-04 at 4.45.54 PM.png'
+'Screen Shot 2015-12-04 at 4.47.09 PM.png'
+'Screen Shot 2015-12-04 at 4.47.28 PM.png'
+'Screen Shot 2015-12-04 at 4.49.36 PM.png'
+'Screen Shot 2015-12-14 at 6.11.17 PM.png'
+'Screen Shot 2015-12-15 at 5.43.15 PM.png'
+'Screen Shot 2015-12-20 at 10.59.13 PM.png'
+'Screen Shot 2015-12-20 at 9.08.19 PM.png'
+'Screen Shot 2015-12-20 at 9.17.36 PM.png'
+'Screen Shot 2015-12-22 at 1.15.36 PM.png'
+'Screen Shot 2015-12-22 at 1.55.21 PM.png'
+'Screen Shot 2015-12-23 at 4.45.57 PM.png'
+'Screen Shot 2015-12-23 at 4.50.44 PM.png'
+'Screen Shot 2016-01-07 at 10.22.53 PM.png'
+'Screen Shot 2016-01-07 at 12.27.40 AM.png'
+'Screen Shot 2016-01-07 at 12.28.20 AM.png'
+'Screen Shot 2016-01-07 at 9.05.54 PM.png'
+'Screen Shot 2016-01-22 at 6.40.57 PM.png'
+'Screen Shot 2016-01-22 at 6.42.51 PM.png'
+'Screen Shot 2016-01-22 at 6.43.38 PM.png'
+'Screen Shot 2016-01-22 at 6.44.18 PM.png'
+'Screen Shot 2016-01-22 at 6.45.11 PM.png'
+'Screen Shot 2016-01-22 at 6.45.29 PM.png'
+'Screen Shot 2016-01-23 at 7.18.30 PM.png'
+'Screen Shot 2016-01-24 at 1.43.01 PM.png'
+'Screen Shot 2016-06-01 at 9.57.44 PM.png'
+'Screen Shot 2016-06-01 at 9.57.59 PM.png'
+'Screen Shot 2016-06-01 at 9.58.22 PM.png'
+'Screen Shot 2016-06-23 at 3.32.42 PM.png'
+'Screen Shot 2016-09-18 at 9.40.10 PM.png'
+'Screen Shot 2016-09-18 at 9.43.06 PM.png'
+'Screen Shot 2016-09-18 at 9.44.27 PM.png'
+'Screen Shot 2016-09-18 at 9.45.11 PM.png'
+'Screen Shot 2016-09-18 at 9.48.39 PM.png'
+'Screen Shot 2016-09-19 at 3.57.21 PM.png'
+'Screen Shot 2016-09-19 at 4.08.54 PM.png'
+'Screen Shot 2016-09-19 at 4.09.32 PM.png'
+'Screen Shot 2016-10-25 at 10.19.37 PM.png'
+'Screen Shot 2016-11-09 at 9.01.37 PM.png'
+TomorrowNight.terminal
+TypeManuel1.pdf
+WirelessDiagnostics_C02Q5298GCN3_2016-01-28_07.39.41.tar.gz
+WirelessDiagnostics_C02Q5298GCN3_2016-07-12_20.54.26.tar.gz
+map.jpeg
+stephanie ~/Desktop
+$ ~
+-bash: /Users/Stephanie: is a directory
+stephanie ~/Desktop
+$ cd ~
+stephanie ~
+$ ls
+2	       Documents/  Library/  Pictures/	fundamentals/
+Applications/  Downloads/  Movies/   Public/	funny_things/
+Desktop/       Dropbox/    Music/    code/
+stephanie ~
+$ ls -l
+total 4
+-rw-r--r--    1 stephanie staff   20 Nov 14 12:17 2
+drwxr-xr-x    3 stephanie staff  102 Sep 11  2015 Applications/
+drwx------+   5 stephanie staff  170 Nov 14 14:49 Desktop/
+drwx------+   6 stephanie staff  204 Nov 13 17:34 Documents/
+drwx------+ 277 stephanie staff 9418 Nov 14 12:39 Downloads/
+drwx------   21 stephanie staff  714 Nov 12 10:30 Dropbox/
+drwx------+  65 stephanie staff 2210 Nov 14 12:04 Library/
+drwx------+   3 stephanie staff  102 Aug  3  2015 Movies/
+drwx------+   4 stephanie staff  136 Aug  4  2015 Music/
+drwx------+   6 stephanie staff  204 Jan 19  2016 Pictures/
+drwxr-xr-x+   5 stephanie staff  170 Aug  3  2015 Public/
+drwxr-xr-x    3 stephanie staff  102 Nov 14 12:34 code/
+drwxr-xr-x    5 stephanie staff  170 Nov 13 17:45 fundamentals/
+drwxr-xr-x    4 stephanie staff  136 Nov  1 23:17 funny_things/
+stephanie ~
+$ la -a
+-bash: la: command not found
+stephanie ~
+$ ls -a
+./		      .cups/		    .nvm/		Downloads/
+../		      .dropbox/		    .nvmrc		Dropbox/
+.CFUserTextEncoding   .editorconfig	    .pryrc		Library/
+.DS_Store	      .gem/		    .rbenv/		Movies/
+.Trash/		      .gemrc		    .ssh/		Music/
+.adobe/		      .git-completion.bash  .subversion/	Pictures/
+.bash_history	      .gitconfig	    .wdi/		Public/
+.bash_profile	      .gitignore_global     .welcome_prompt.sh	code/
+.bash_prompt.sh       .gitmessage.txt	    2			fundamentals/
+.bash_sessions/       .inputrc		    Applications/	funny_things/
+.bash_wdi_command.sh  .irbrc		    Desktop/
+.bashrc*	      .npm/		    Documents/
+stephanie ~
+$ cd ~/Desktop
+stephanie ~/Desktop
+$ pwd
+/Users/Stephanie/Desktop
+stephanie ~/Desktop
+$ cd ~/Desktop/
+stephanie ~/Desktop
+$ mkdir cli_practice
+gmkdir: created directory 'cli_practice'
+stephanie ~/Desktop
+$ cd cli_practice
+stephanie ~/Desktop/cli_practice
+$ touch notes.txt
+stephanie ~/Desktop/cli_practice
+$ ls
+notes.txt
+stephanie ~/Desktop/cli_practice
+$ open notes.txt
+stephanie ~/Desktop/cli_practice
+$ cd ~/Desktop/cli_practice/
+stephanie ~/Desktop/cli_practice
+$ ls
+notes.txt
+stephanie ~/Desktop/cli_practice
+$ open notes.txt
+stephanie ~/Desktop/cli_practice
+$ open notes.txt
+stephanie ~/Desktop/cli_practice
+$ cp notes.txt ~/Desktop/
+'notes.txt' -> '/Users/Stephanie/Desktop/notes.txt'
+stephanie ~/Desktop/cli_practice
+$ cd ..
+stephanie ~/Desktop
+$ mv notes.txt notes.backup
+'notes.txt' -> 'notes.backup'
+stephanie ~/Desktop
+$ ls
+Old/  cli_practice/  notes.backup
+stephanie ~/Desktop
+$ mv cli_practice/ cli_practice2
+'cli_practice/' -> 'cli_practice2'
+stephanie ~/Desktop
+$ ~/Desktop
+-bash: /Users/Stephanie/Desktop: is a directory
+stephanie ~/Desktop
+$ cd ~/Desktop
+stephanie ~/Desktop
+$ pwd
+/Users/Stephanie/Desktop
+stephanie ~/Desktop
+$ mkdir thelionking
+gmkdir: created directory 'thelionking'
+stephanie ~/Desktop
+$ cd thelionking/
+stephanie ~/Desktop/thelionking
+$ mkdir pridelands
+gmkdir: created directory 'pridelands'
+stephanie ~/Desktop/thelionking
+$ cd pridelands/
+stephanie ~/Desktop/thelionking/pridelands
+$ touch mufassa.txt scar.txt simba.html rafiki.js
+stephanie ~/Desktop/thelionking/pridelands
+$ ls
+mufassa.txt  rafiki.js	scar.txt  simba.html
+stephanie ~/Desktop/thelionking/pridelands
+$ ls
+mufassa.txt  rafiki.js	scar.txt  simba.html
+stephanie ~/Desktop/thelionking/pridelands
+$ ..
+-bash: ..: command not found
+stephanie ~/Desktop/thelionking/pridelands
+$ cd ..
+stephanie ~/Desktop/thelionking
+$ mkdir elephantgraveyard
+gmkdir: created directory 'elephantgraveyard'
+stephanie ~/Desktop/thelionking
+$ pwd
+/Users/Stephanie/Desktop/thelionking
+stephanie ~/Desktop/thelionking
+$ cd pridelands/
+stephanie ~/Desktop/thelionking/pridelands
+$ mv simba.html ~/Desktop/thelionking/elephantgraveyard/
+'simba.html' -> '/Users/Stephanie/Desktop/thelionking/elephantgraveyard/simba.html'
+stephanie ~/Desktop/thelionking/pridelands
+$ pwd
+/Users/Stephanie/Desktop/thelionking/pridelands
+stephanie ~/Desktop/thelionking/pridelands
+$ ls
+mufassa.txt  rafiki.js	scar.txt
+stephanie ~/Desktop/thelionking/pridelands
+$ cd ../elephantgraveyard/
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ ls
+simba.html
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ mv mufassa.txt ~/Desktop/thelionking/elephantgraveyard/
+gmv: cannot stat 'mufassa.txt': No such file or directory
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ pwd
+/Users/Stephanie/Desktop/thelionking/elephantgraveyard
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ ls
+simba.html
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ mv mufassa.txt elephantgraveyard/
+gmv: cannot stat 'mufassa.txt': No such file or directory
+stephanie ~/Desktop/thelionking
+$ pwd
+/Users/Stephanie/Desktop/thelionking
+stephanie ~/Desktop/thelionking
+$ cd pridelands/
+stephanie ~/Desktop/thelionking/pridelands
+$ mv mufassa.txt ../elephantgraveyard/
+'mufassa.txt' -> '../elephantgraveyard/mufassa.txt'
+stephanie ~/Desktop/thelionking/pridelands
+$ ls
+rafiki.js  scar.txt
+stephanie ~/Desktop/thelionking/pridelands
+$ cd ..
+stephanie ~/Desktop/thelionking
+$ pwd
+/Users/Stephanie/Desktop/thelionking
+stephanie ~/Desktop/thelionking
+$ ls
+elephantgraveyard/  pridelands/
+stephanie ~/Desktop/thelionking
+$ cd elephantgraveyard/
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ ls
+mufassa.txt  simba.html
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ pwd
+/Users/Stephanie/Desktop/thelionking/elephantgraveyard
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ touch hyenas.txt
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ ls
+hyenas.txt  mufassa.txt  simba.html
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ mkdir thegorge
+gmkdir: created directory 'thegorge'
+stephanie ~/Desktop/thelionking
+$ ls
+elephantgraveyard/  pridelands/  thegorge/
+stephanie ~/Desktop/thelionking
+$ cd elephantgraveyard/
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ ls
+hyenas.txt  mufassa.txt  simba.html
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ mv myenas.txt ../thegorge
+gmv: cannot stat 'myenas.txt': No such file or directory
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ pwd
+/Users/Stephanie/Desktop/thelionking/elephantgraveyard
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ ls
+elephantgraveyard/  pridelands/  thegorge/
+stephanie ~/Desktop/thelionking
+$ cd elephantgraveyard/
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ ls
+hyenas.txt  mufassa.txt  simba.html
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ mv hyenas.txt ../thegorge
+'hyenas.txt' -> '../thegorge/hyenas.txt'
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ pwd
+/Users/Stephanie/Desktop/thelionking/elephantgraveyard
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ ls
+elephantgraveyard/  pridelands/  thegorge/
+stephanie ~/Desktop/thelionking
+$ cd thegorge
+stephanie ~/Desktop/thelionking/thegorge
+$ ls
+hyenas.txt
+stephanie ~/Desktop/thelionking/thegorge
+$ cs ../
+-bash: cs: command not found
+stephanie ~/Desktop/thelionking/thegorge
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ ls
+elephantgraveyard/  pridelands/  thegorge/
+stephanie ~/Desktop/thelionking
+$ cd elephantgraveyard/
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ ls
+mufassa.txt  simba.html
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ mv simba.html ../thegorge
+'simba.html' -> '../thegorge/simba.html'
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ pwd
+/Users/Stephanie/Desktop/thelionking/elephantgraveyard
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ ls
+elephantgraveyard/  pridelands/  thegorge/
+stephanie ~/Desktop/thelionking
+$ cd pridelands/
+stephanie ~/Desktop/thelionking/pridelands
+$ ls
+rafiki.js  scar.txt
+stephanie ~/Desktop/thelionking/pridelands
+$ mv scar.txt ../thegorge
+'scar.txt' -> '../thegorge/scar.txt'
+stephanie ~/Desktop/thelionking/pridelands
+$ pwd
+/Users/Stephanie/Desktop/thelionking/pridelands
+stephanie ~/Desktop/thelionking/pridelands
+$ ../thegorge
+-bash: ../thegorge: is a directory
+stephanie ~/Desktop/thelionking/pridelands
+$ ls
+rafiki.js
+stephanie ~/Desktop/thelionking/pridelands
+$ cd ../thegorge
+stephanie ~/Desktop/thelionking/thegorge
+$ pwd
+/Users/Stephanie/Desktop/thelionking/thegorge
+stephanie ~/Desktop/thelionking/thegorge
+$ ls
+hyenas.txt  scar.txt  simba.html
+stephanie ~/Desktop/thelionking/thegorge
+$ touch stampede.md
+stephanie ~/Desktop/thelionking/thegorge
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ ls
+elephantgraveyard/  pridelands/  thegorge/
+stephanie ~/Desktop/thelionking
+$ cd elephantgraveyard/
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ ls
+mufassa.txt
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ mv mufassa.txt ../thegorge
+'mufassa.txt' -> '../thegorge/mufassa.txt'
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ cd thegorge
+stephanie ~/Desktop/thelionking/thegorge
+$ rm stampede.md
+removed 'stampede.md'
+stephanie ~/Desktop/thelionking/thegorge
+$ ls
+hyenas.txt  mufassa.txt  scar.txt  simba.html
+stephanie ~/Desktop/thelionking/thegorge
+$ rm mufassa.txt
+removed 'mufassa.txt'
+stephanie ~/Desktop/thelionking/thegorge
+$ mv scar.txt hyenas.txt ../pridelands
+'scar.txt' -> '../pridelands/scar.txt'
+'hyenas.txt' -> '../pridelands/hyenas.txt'
+stephanie ~/Desktop/thelionking/thegorge
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ cd pridelands
+stephanie ~/Desktop/thelionking/pridelands
+$ ls
+hyenas.txt  rafiki.js  scar.txt
+stephanie ~/Desktop/thelionking/pridelands
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ mkdir thejungle/
+gmkdir: created directory 'thejungle/'
+stephanie ~/Desktop/thelionking
+$ cp ./thegorge/simba.html ./thejungle/
+'./thegorge/simba.html' -> './thejungle/simba.html'
+stephanie ~/Desktop/thelionking
+$ cd thejungle
+stephanie ~/Desktop/thelionking/thejungle
+$ ls
+simba.html
+stephanie ~/Desktop/thelionking/thejungle
+$ touch timon.txt pumba.css
+stephanie ~/Desktop/thelionking/thejungle
+$ ls
+pumba.css  simba.html  timon.txt
+stephanie ~/Desktop/thelionking/thejungle
+$ mv simba.html matthewbrodericksimba.txt
+'simba.html' -> 'matthewbrodericksimba.txt'
+stephanie ~/Desktop/thelionking/thejungle
+$ ls
+matthewbrodericksimba.txt  pumba.css  timon.txt
+stephanie ~/Desktop/thelionking/thejungle
+$ cd ../thegorge
+stephanie ~/Desktop/thelionking/thegorge
+$ ls
+simba.html
+stephanie ~/Desktop/thelionking/thegorge
+$ rm simba.html 
+removed 'simba.html'
+stephanie ~/Desktop/thelionking/thegorge
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ rm thegorge/
+grm: cannot remove 'thegorge/': Is a directory
+stephanie ~/Desktop/thelionking
+$ ls
+elephantgraveyard/  pridelands/  thegorge/  thejungle/
+stephanie ~/Desktop/thelionking
+$ rm thegorge/
+grm: cannot remove 'thegorge/': Is a directory
+stephanie ~/Desktop/thelionking
+$ rm -r thegorge/
+removed directory 'thegorge/'
+stephanie ~/Desktop/thelionking
+$ ls
+elephantgraveyard/  pridelands/  thejungle/
+stephanie ~/Desktop/thelionking
+$ cd elephantgraveyard/
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ ls
+stephanie ~/Desktop/thelionking/elephantgraveyard
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ cd pridelands/
+stephanie ~/Desktop/thelionking/pridelands
+$ ls
+hyenas.txt  rafiki.js  scar.txt
+stephanie ~/Desktop/thelionking/pridelands
+$ mv rafiki.js ./thejungle
+'rafiki.js' -> './thejungle'
+stephanie ~/Desktop/thelionking/pridelands
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ ls
+elephantgraveyard/  pridelands/  thejungle/
+stephanie ~/Desktop/thelionking
+$ cd thejungle/
+stephanie ~/Desktop/thelionking/thejungle
+$ ls
+matthewbrodericksimba.txt  pumba.css  timon.txt
+stephanie ~/Desktop/thelionking/thejungle
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ ls
+elephantgraveyard/  pridelands/  thejungle/
+stephanie ~/Desktop/thelionking
+$ cd pridelands/
+stephanie ~/Desktop/thelionking/pridelands
+$ ls
+hyenas.txt  scar.txt  thejungle
+stephanie ~/Desktop/thelionking/pridelands
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ ls
+elephantgraveyard/  pridelands/  thejungle/
+stephanie ~/Desktop/thelionking
+$ cd thejungle/
+stephanie ~/Desktop/thelionking/thejungle
+$ ls
+matthewbrodericksimba.txt  pumba.css  timon.txt
+stephanie ~/Desktop/thelionking/thejungle
+$ ls
+matthewbrodericksimba.txt  pumba.css  timon.txt
+stephanie ~/Desktop/thelionking/thejungle
+$ mv matthewbrodericksimba.txt timon.txt pumba.css ./pridelands/
+gmv: target './pridelands/' is not a directory
+stephanie ~/Desktop/thelionking/thejungle
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ pridist.d 
+dtrace: system integrity protection is on, some features will not be available
+dtrace: failed to initialize dtrace: DTrace requires additional privileges
+stephanie ~/Desktop/thelionking
+$ pridelands/
+-bash: pridelands/: is a directory
+stephanie ~/Desktop/thelionking
+$ ls
+elephantgraveyard/  pridelands/  thejungle/
+stephanie ~/Desktop/thelionking
+$ ls
+elephantgraveyard/  pridelands/  thejungle/
+stephanie ~/Desktop/thelionking
+$ cd pridelands/
+stephanie ~/Desktop/thelionking/pridelands
+$ ls
+hyenas.txt  scar.txt  thejungle
+stephanie ~/Desktop/thelionking/pridelands
+$ pwd
+/Users/Stephanie/Desktop/thelionking/pridelands
+stephanie ~/Desktop/thelionking/pridelands
+$ ls
+hyenas.txt  scar.txt  thejungle
+stephanie ~/Desktop/thelionking/pridelands
+$ rm -r thejungle
+grm: cannot remove 'thejungle': No such file or directory
+stephanie ~/Desktop/thelionking/pridelands
+$ pwd
+/Users/Stephanie/Desktop/thelionking/pridelands
+stephanie ~/Desktop/thelionking/pridelands
+$ cd ../
+stephanie ~/Desktop/thelionking
+$ rm -r thejungle
+removed 'thejungle/.DS_Store'
+removed directory 'thejungle'
+stephanie ~/Desktop/thelionking
+$ ls
+elephantgraveyard/  pridelands/
+stephanie ~/Desktop/thelionking
+$ cd pridelands/
+stephanie ~/Desktop/thelionking/pridelands
+$ touch circleoflife.txt
+stephanie ~/Desktop/thelionking/pridelands
+$ ls
+circleoflife.txt  hyenas.txt  matthewbrodericksimba.txt  pumba.css  timon.txt
+stephanie ~/Desktop/thelionking/pridelands
+$ ~
+-bash: /Users/Stephanie: is a directory
+stephanie ~/Desktop/thelionking/pridelands
+$ cd ~
+stephanie ~
+$ ls -a
+./		      .cups/		    .nvm/		Downloads/
+../		      .dropbox/		    .nvmrc		Dropbox/
+.CFUserTextEncoding   .editorconfig	    .pryrc		Library/
+.DS_Store	      .gem/		    .rbenv/		Movies/
+.Trash/		      .gemrc		    .ssh/		Music/
+.adobe/		      .git-completion.bash  .subversion/	Pictures/
+.bash_history	      .gitconfig	    .wdi/		Public/
+.bash_profile	      .gitignore_global     .welcome_prompt.sh	code/
+.bash_prompt.sh       .gitmessage.txt	    2			fundamentals/
+.bash_sessions/       .inputrc		    Applications/	funny_things/
+.bash_wdi_command.sh  .irbrc		    Desktop/
+.bashrc*	      .npm/		    Documents/
+stephanie ~
+$ atom .bash_profile
+-bash: atom: command not found
+stephanie ~
+$ atom .bash_profile 
+stephanie ~
+$ ll
+total 160K
+drwxr-xr-x+  47 stephanie staff 1.6K Nov 14 16:22 ./
+drwxr-xr-x    7 root      admin  238 Nov 14 12:07 ../
+drwx------  180 stephanie staff 6.0K Nov 14 16:13 .Trash/
+drwxr-xr-x    4 stephanie staff  136 Aug  6  2015 .adobe/
+drwxr-xr-x   13 stephanie staff  442 Nov 14 16:22 .atom/
+drwx------    7 stephanie staff  238 Nov 14 12:35 .bash_sessions/
+drwx------    3 stephanie staff  102 Sep  1  2015 .cups/
+drwx------    9 stephanie staff  306 Apr 13  2016 .dropbox/
+drwxr-xr-x    3 stephanie staff  102 Nov 14 12:26 .gem/
+drwxr-xr-x    5 stephanie staff  170 Nov 14 12:27 .npm/
+drwxr-xr-x   22 stephanie staff  748 Nov 14 12:27 .nvm/
+drwxr-xr-x   21 stephanie staff  714 Nov 14 12:26 .rbenv/
+drwx------    4 stephanie staff  136 Nov 14 12:16 .ssh/
+drwxr-xr-x    6 stephanie staff  204 Nov 13 17:59 .subversion/
+drwxr-xr-x    5 stephanie staff  170 Nov 14 12:34 .wdi/
+drwxr-xr-x    3 stephanie staff  102 Sep 11  2015 Applications/
+drwx------+   8 stephanie staff  272 Nov 14 15:45 Desktop/
+drwx------+   6 stephanie staff  204 Nov 13 17:34 Documents/
+drwx------+ 277 stephanie staff 9.2K Nov 14 12:39 Downloads/
+drwx------   21 stephanie staff  714 Nov 12 10:30 Dropbox/
+drwx------+  65 stephanie staff 2.2K Nov 14 12:04 Library/
+drwx------+   3 stephanie staff  102 Aug  3  2015 Movies/
+drwx------+   4 stephanie staff  136 Aug  4  2015 Music/
+drwx------+   6 stephanie staff  204 Jan 19  2016 Pictures/
+drwxr-xr-x+   5 stephanie staff  170 Aug  3  2015 Public/
+drwxr-xr-x    3 stephanie staff  102 Nov 14 12:34 code/
+drwxr-xr-x    5 stephanie staff  170 Nov 13 17:45 fundamentals/
+drwxr-xr-x    4 stephanie staff  136 Nov  1 23:17 funny_things/
+-r--------    1 stephanie staff    7 Nov  9 23:02 .CFUserTextEncoding
+-rw-r--r--    1 stephanie staff  19K Nov 14 16:21 .DS_Store
+-rw-------    1 stephanie staff  466 Nov 14 12:34 .bash_history
+-rw-r--r--    1 stephanie staff 8.9K Nov 14 12:34 .bash_profile
+-rw-r--r--    1 stephanie staff 4.2K Nov 14 12:34 .bash_prompt.sh
+-rw-r--r--    1 stephanie staff 2.3K Nov 14 12:34 .bash_wdi_command.sh
+-rwxr-xr-x    1 stephanie staff   39 Nov 14 12:34 .bashrc*
+-rw-r--r--    1 stephanie staff  602 Nov 14 12:34 .editorconfig
+-rw-r--r--    1 stephanie staff  210 Nov 14 12:34 .gemrc
+-rw-r--r--    1 stephanie staff  60K Nov 14 12:20 .git-completion.bash
+-rw-r--r--    1 stephanie staff  759 Nov 14 12:20 .gitconfig
+-rw-r--r--    1 stephanie staff 1.3K Nov 14 12:34 .gitignore_global
+-rw-r--r--    1 stephanie staff  333 Nov 14 12:34 .gitmessage.txt
+-rw-r--r--    1 stephanie staff  593 Nov 14 12:34 .inputrc
+-rw-r--r--    1 stephanie staff  354 Nov 14 12:34 .irbrc
+-rw-r--r--    1 stephanie staff    7 Nov 14 12:34 .nvmrc
+-rw-r--r--    1 stephanie staff  353 Nov 14 12:34 .pryrc
+-rw-r--r--    1 stephanie staff  981 Nov 14 12:34 .welcome_prompt.sh
+-rw-r--r--    1 stephanie staff   20 Nov 14 12:17 2
+stephanie ~
+$ cd ~/code/
+stephanie ~/code
+$ cd wdi
+stephanie ~/code/wdi
+$ ls
+stephanie ~/code/wdi
+$ pwd
+/Users/Stephanie/code/wdi
+stephanie ~/code/wdi
+$ class
+-bash: class: command not found
+stephanie ~/code/wdi
+$ class
+-bash: class: command not found
+stephanie ~/code/wdi
+$ pwd
+/Users/Stephanie/code/wdi
+stephanie ~/code/wdi
+$ class
+-bash: class: command not found
+stephanie ~/code/wdi
+$ reload
+
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.10.2
+Homebrew 1.1.0 Homebrew/homebrew-core (git revision 1d0a; last commit 2016-11-14)
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin16]
+node v7.1.0
+psql (PostgreSQL) 9.5.5
+------------------------------------------
+type unwelcome to remove this message
+stephanie ~/code/wdi
+$ class
+stephanie ~/code/wdi
+$ pwd
+/Users/Stephanie/code/wdi
+stephanie ~/code/wdi
+$ mkdir project/
+gmkdir: created directory 'project/'
+stephanie ~/code/wdi
+$ ls
+project/
+stephanie ~/code/wdi
+$ mv project/ project
+gmv: cannot move 'project/' to a subdirectory of itself, 'project/project'
+stephanie ~/code/wdi
+$ ls
+project/
+stephanie ~/code/wdi
+$ reload
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.10.2
+Homebrew 1.1.0 Homebrew/homebrew-core (git revision 1d0a; last commit 2016-11-14)
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin16]
+node v7.1.0
+psql (PostgreSQL) 9.5.5
+------------------------------------------
+type unwelcome to remove this message
+stephanie ~/code/wdi
+$ project
+stephanie ~/code/wdi/project
+$ man tree
+No manual entry for tree
+stephanie ~/code/wdi/project
+$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stephanie ~/code/wdi/project
+$ pwd
+/Users/Stephanie/code/wdi/project
+stephanie ~/code/wdi/project
+$ cd ~
+stephanie ~
+$ pwd
+/Users/Stephanie
+stephanie ~
+$ cd desktop
+stephanie ~/desktop
+$ pwd
+/Users/Stephanie/desktop
+stephanie ~/desktop
+$ ls
+Old/  cli_practice2/  kitchen/	notes.backup  thelionking/
+stephanie ~/desktop
+$ cd kitchen
+stephanie ~/desktop/kitchen
+$ ls
+cans.txt  fridge/  pantry/
+stephanie ~/desktop/kitchen
+$ mv ./kitchen/fridge/trashcan ./kitchen
+gmv: cannot stat './kitchen/fridge/trashcan': No such file or directory
+stephanie ~/desktop/kitchen
+$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stephanie ~/desktop/kitchen
+$ cd ~
+stephanie ~
+$ cd kitchen
+-bash: cd: kitchen: No such file or directory
+stephanie ~
+$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stephanie ~
+$ cd ~
+stephanie ~
+$ cd desktop
+stephanie ~/desktop
+$ cd kitchen
+stephanie ~/desktop/kitchen
+$ ls
+cans.txt  fridge/  pantry/
+stephanie ~/desktop/kitchen
+$ cd fridge
+stephanie ~/desktop/kitchen/fridge
+$ ls
+diapers.txt  freezer/  milk.txt  trashcan/
+stephanie ~/desktop/kitchen/fridge
+$ mv trashcan /fridge
+gmv: cannot move 'trashcan' to '/fridge': Permission denied
+stephanie ~/desktop/kitchen/fridge
+$ mv -r trashcan ../
+gmv: invalid option -- 'r'
+Try 'gmv --help' for more information.
+stephanie ~/desktop/kitchen/fridge
+$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stephanie ~/desktop/kitchen/fridge
+$ cd !
+-bash: cd: !: No such file or directory
+stephanie ~/desktop/kitchen/fridge
+$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stephanie ~/desktop/kitchen/fridge
+$ cd ~
+stephanie ~
+$ cd desktop
+stephanie ~/desktop
+$ cd kitchen
+stephanie ~/desktop/kitchen
+$ ls
+cans.txt  fridge/  pantry/
+stephanie ~/desktop/kitchen
+$ cd fridge
+stephanie ~/desktop/kitchen/fridge
+$ ls
+diapers.txt  freezer/  milk.txt  trashcan/
+stephanie ~/desktop/kitchen/fridge
+$ mv trashcan /~/Desktop/kitchen/fridge/
+gmv: cannot move 'trashcan' to '/~/Desktop/kitchen/fridge/': No such file or directory
+stephanie ~/desktop/kitchen/fridge
+$ mv /trashcan ../
+gmv: cannot stat '/trashcan': No such file or directory
+stephanie ~/desktop/kitchen/fridge
+$ mv trashcan kitchen/trashcan
+gmv: cannot move 'trashcan' to 'kitchen/trashcan': No such file or directory
+stephanie ~/desktop/kitchen/fridge
+$ pwd
+/Users/Stephanie/desktop/kitchen/fridge
+stephanie ~/desktop/kitchen/fridge
+$ ls
+diapers.txt  freezer/  milk.txt  trashcan/
+stephanie ~/desktop/kitchen/fridge
+$ mv trashcan/ ../
+'trashcan/' -> '../trashcan'
+stephanie ~/desktop/kitchen/fridge
+$ pwd
+/Users/Stephanie/desktop/kitchen/fridge
+stephanie ~/desktop/kitchen/fridge
+$ ls
+diapers.txt  freezer/  milk.txt
+stephanie ~/desktop/kitchen/fridge
+$ cd ..
+stephanie ~/desktop/kitchen
+$ ls
+cans.txt  fridge/  pantry/  trashcan/
+stephanie ~/desktop/kitchen
+$ cd trashcan
+stephanie ~/desktop/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt  sink/
+stephanie ~/desktop/kitchen/trashcan
+$ mv sink/ ../
+'sink/' -> '../sink'
+stephanie ~/desktop/kitchen/trashcan
+$ cd ..
+stephanie ~/desktop/kitchen
+$ ls
+cans.txt  fridge/  pantry/  sink/  trashcan/
+stephanie ~/desktop/kitchen
+$ mv cans.txt pantry/
+'cans.txt' -> 'pantry/cans.txt'
+stephanie ~/desktop/kitchen
+$ cd pantry
+stephanie ~/desktop/kitchen/pantry
+$ ls
+cans.txt  cereal.txt  crisper-drawer/
+stephanie ~/desktop/kitchen/pantry
+$ mv crisper-drawer/ ../fridge/
+'crisper-drawer/' -> '../fridge/crisper-drawer'
+stephanie ~/desktop/kitchen/pantry
+$ cd ..
+stephanie ~/desktop/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+stephanie ~/desktop/kitchen
+$ cd fridge
+stephanie ~/desktop/kitchen/fridge
+$ ls
+crisper-drawer/  diapers.txt  freezer/	milk.txt
+stephanie ~/desktop/kitchen/fridge
+$ cd crisper-drawer/
+stephanie ~/desktop/kitchen/fridge/crisper-drawer
+$ ls
+lettuce.txt
+stephanie ~/desktop/kitchen/fridge/crisper-drawer
+$ touch apples.txt
+stephanie ~/desktop/kitchen/fridge/crisper-drawer
+$ ls
+apples.txt  lettuce.txt
+stephanie ~/desktop/kitchen/fridge/crisper-drawer
+$ cd ..
+stephanie ~/desktop/kitchen/fridge
+$ cd ..
+stephanie ~/desktop/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+stephanie ~/desktop/kitchen
+$ cd fridge
+stephanie ~/desktop/kitchen/fridge
+$ ls
+crisper-drawer/  diapers.txt  freezer/	milk.txt
+stephanie ~/desktop/kitchen/fridge
+$ rm diapers.txt
+removed 'diapers.txt'
+stephanie ~/desktop/kitchen/fridge
+$ ls
+crisper-drawer/  freezer/  milk.txt
+stephanie ~/desktop/kitchen/fridge
+$ cd freezer
+stephanie ~/desktop/kitchen/fridge/freezer
+$ ls
+couch.txt  frozenpeas.txt  icecream.txt
+stephanie ~/desktop/kitchen/fridge/freezer
+$ rm couch.txt
+removed 'couch.txt'
+stephanie ~/desktop/kitchen/fridge/freezer
+$ ls
+frozenpeas.txt	icecream.txt
+stephanie ~/desktop/kitchen/fridge/freezer
+$ cd ..
+stephanie ~/desktop/kitchen/fridge
+$ cd ..
+stephanie ~/desktop/kitchen
+$ cd pantry
+stephanie ~/desktop/kitchen/pantry
+$ ls
+cans.txt  cereal.txt
+stephanie ~/desktop/kitchen/pantry
+$ cd ..
+stephanie ~/desktop/kitchen
+$ cd sink
+stephanie ~/desktop/kitchen/sink
+$ ls
+clean-dishes.txt  delete-me.txt  dirty-dishes.txt
+stephanie ~/desktop/kitchen/sink
+$ rm delete-me.txt
+removed 'delete-me.txt'
+stephanie ~/desktop/kitchen/sink
+$ mkdir drying-rack
+gmkdir: created directory 'drying-rack'
+stephanie ~/desktop/kitchen/sink
+$ mv clean-dishes.txt drying-rack/
+'clean-dishes.txt' -> 'drying-rack/clean-dishes.txt'
+stephanie ~/desktop/kitchen/sink
+$ ls
+dirty-dishes.txt  drying-rack/
+stephanie ~/desktop/kitchen/sink
+$ cd drying-rack/
+stephanie ~/desktop/kitchen/sink/drying-rack
+$ ls
+clean-dishes.txt
+stephanie ~/desktop/kitchen/sink/drying-rack
+$ cd ..
+stephanie ~/desktop/kitchen/sink
+$ ls
+dirty-dishes.txt  drying-rack/
+stephanie ~/desktop/kitchen/sink
+$ cd ..
+stephanie ~/desktop/kitchen
+$ cd trashcan
+stephanie ~/desktop/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt
+stephanie ~/desktop/kitchen/trashcan
+$ 
